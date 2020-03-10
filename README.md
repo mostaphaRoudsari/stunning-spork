@@ -33,3 +33,4 @@ A few packages and external programs are required here to get this code running.
 
 After that, you should be ready to start generating some funky looking charts!
 ![UTCI plot](./samples/utci_comfort_example.png)
+![UTCI comparison plot](./samples/utci_comparison_example.png)
