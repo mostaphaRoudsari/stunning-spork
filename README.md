@@ -24,10 +24,10 @@ A few packages and external programs are required here to get this code running.
 
     ```python
     ...
-    89|    def wea(self, w):
-    90|        # assert hasattr(w, 'isWea'), \
-    91|        #     TypeError('wea must be a WEA object not a {}'.format(type(w)))
-    92|        self._wea = w
+    89    def wea(self, w):
+    90        # assert hasattr(w, 'isWea'), \
+    91        #     TypeError('wea must be a WEA object not a {}'.format(type(w)))
+    92        self._wea = w
     ...
     ```
 
