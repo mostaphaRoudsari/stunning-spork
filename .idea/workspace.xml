@@ -2,15 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a03010e3-b553-4802-bcbe-936a848b1c77" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/openfield/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/openfield/ground.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/openfield/mitigations.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/openfield/mrt.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/openfield/plot.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/openfield/radiation.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/openfield/utci.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
