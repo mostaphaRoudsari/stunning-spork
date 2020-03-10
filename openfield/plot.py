@@ -36,7 +36,7 @@ def heatmap(hourly_utci_values, plot_type="utci", location_string=None, tone_col
         cb_tick_labels = cb_ticks
         cb_label = "UTCI °C"
     elif plot_type == "diff":
-        series = pd.Series(hourly_utci_values, name="Universal Thermal Climate Index (difference)", index=idx)
+        series = pd.Series(hourly_utci_values, name="Universal Thermal Climate Index Comparison", index=idx)
         cmap = cm.get_cmap("RdBu_r")
         cb_lims = [-5, 5]
         bounds = np.arange(-5, 6, 1)
