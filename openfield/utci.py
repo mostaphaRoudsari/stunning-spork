@@ -30,6 +30,6 @@ def universal_thermal_climate_index(epw_file: str, mean_radiant_temperature: Hou
     # Calculate UTCI values
     utci = UTCI(epw.dry_bulb_temperature, epw.relative_humidity, mean_radiant_temperature, wind_speed).universal_thermal_climate_index
 
-    r"C:\openstudio-2.7.0\EnergyPlus\Energy+.idd"
+    print("Universal Thermal Climate Index calculation completed")
 
     return utci

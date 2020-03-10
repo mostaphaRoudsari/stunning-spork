@@ -29,4 +29,5 @@ A few packages and external programs are required here to get this code running.
     92        self._wea = w
     ```
 
-After that, you should be good to go!
+After that, you should be ready to start generating some funky looking charts!
+![UTCI plot](./samples/utci_comfort_example.png)
