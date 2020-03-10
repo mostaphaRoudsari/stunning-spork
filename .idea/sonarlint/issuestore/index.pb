@@ -1,0 +1,19 @@
+
+A
+openfield/plot.py,0\b\0bcc367dd55c4f7787466aff27befcc6ee356d83
+F
+openfield/radiation.py,6\7\67ace9bbbeea18226d952556199175ee22982fb5
+E
+openfield/__init__.py,e\5\e5b9ba1d41b413132b8af51dccf3c36e07523557
+@
+requirements.txt,1\9\19359a61ae2446b51b549167b014da2fcf265768
+A
+openfield/utci.py,1\e\1ea4d2533d694d60971b7692d5982c04046c5b98
+H
+openfield/mitigations.py,9\e\9ea670c51a06c6d8d1657e774a5235dd33273cb0
+C
+openfield/ground.py,0\0\000fee95a8a1e8166ac0f8544bce3910ddbfed24
+@
+openfield/mrt.py,9\4\9416c3f5f8a4971646b2a1bb9be727e1193bc07d
+9
+	README.md,8\e\8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d
