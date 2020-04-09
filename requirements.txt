@@ -1,9 +1,8 @@
 pandas
 numpy
 eppy
-lbt-ladybug
-ladybug-comfort
-lbt-honeybee
+ladybug-comfort==0.9.2
+lbt-honeybee==0.1.16
 subprocess
 io
 pathlib

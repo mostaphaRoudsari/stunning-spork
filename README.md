@@ -12,25 +12,12 @@ A few packages and external programs are required here to get this code running.
 - EnergyPlus - https://github.com/NREL/OpenStudio/releases/latest
 
 ### Python
-- Python packages required are listed in the `requirements.txt` file. Most of them you'll already have on your machine, but for those you don't, try running the following command to install them `pip install -r "./requirements.txt"`
+- Python packages required are listed in the `requirements.txt` file. Most of them you'll already have on your machine, but for those you don't, try running the following command to install them:
 
-- The next step is to fix a dodgy bit of code in Honeybee. All you need to do is comment out some lines in the `./honeybee/radiance/sky` file. You can find this by running the following:
-    ```python
-    from honeybee.radiance.sky import skymatrix
-    print(skymatrix.__file__)
-    ```
-
-    Once you've found the file, just comment out lines [90-91]. The code should then look something like the following:
-
-    ```python
-    ...
-    89    def wea(self, w):
-    90        # assert hasattr(w, 'isWea'), \
-    91        #     TypeError('wea must be a WEA object not a {}'.format(type(w)))
-    92        self._wea = w
-    ...
-    ```
+`pip install -r "./requirements.txt"`
 
 After that, you should be ready to start generating some funky looking charts!
+
 ![UTCI plot](./samples/utci_comfort_example.png)
+
 ![UTCI comparison plot](./samples/utci_comparison_example.png)
